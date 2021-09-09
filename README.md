@@ -10,15 +10,14 @@ Install the Cimitra's Windows Users Administration Script with the command below
 
 **iwr https://git.io/JuBmO | iex**
 
-
 **[SCRIPT PURPOSE]**
 
 This script allows you to control a Windows printer
 
 **[IMPORTING THE CIMITRA ACTION DESIGNED WITH THIS SCRIPT]**
 
-In Cimitra select File | Import
+In Cimitra select **Create | Import**
 
-Import this file: C:\cimitra\scripts\install_cimitra_printer_control.ps1
+Import this file: C:\cimitra\scripts\printer\ControlPrinter.json
 
 
