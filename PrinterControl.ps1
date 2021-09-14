@@ -1,4 +1,4 @@
-﻿# Control a Windows Spooler SubSystem App for Printing and Fax Services
+# Control a Windows Spooler SubSystem App for Printing and Fax Services
 # Author: Tay Kratzer tay@cimitra.com
 # Modify Date: 9/8/21
 # -------------------------------------------------
@@ -8,6 +8,7 @@
 Control the Windows Spooler SubSystem
 #>
 
+# This is an Array of Parameters that this script can expect. A Parameter is passed via this syntax -<parameter name>, example: -Report
 Param(
 
 [switch] $Report,
@@ -21,6 +22,7 @@ Param(
 
 )
 
+# There are 2 Global Variables
 $Global:PrinterRunning = $true
 $Global:SERVICE_NAME = "Spooler"
 
